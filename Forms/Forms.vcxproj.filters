@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Forms">
+      <UniqueIdentifier>{0d2e46ec-f1ec-48b8-bf08-9326a977fa23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Forms\CreateLogin">
+      <UniqueIdentifier>{0040a992-47f2-4ecb-8ce5-da142d204bf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Forms\Login">
+      <UniqueIdentifier>{20f79832-d4d6-410d-a068-ad64c1b89fbc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CreateLogin.h">
+      <Filter>Forms\CreateLogin</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>Forms\Login</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CreateLogin.cpp">
+      <Filter>Forms\CreateLogin</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>Forms\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
